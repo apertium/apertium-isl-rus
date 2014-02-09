@@ -104,15 +104,24 @@
  
     <!-- РАЗДЕЛ: -->
 
+    <e><p><l>ekki<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
+
     <e><p><l>í<b/>dag<s n="adv"/></l><r>сегодня<s n="adv"/></r></p></e>
 
     <!-- РАЗДЕЛ: -->
 
     <e><p><l>vera<s n="vbser"/></l><r>быть<s n="vbser"/></r></p></e>
+
     <e><p><l>hafa<s n="vbhaver"/></l><r>иметь<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+
     <e><p><l>tala<s n="vblex"/></l><r>горовить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>tala<s n="vblex"/></l><r>сказать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+
     <e><p><l>hringja<s n="vblex"/></l><r>звонить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+
+    <e><p><l>kunna<s n="vblex"/></l><r>знать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>vita<s n="vblex"/></l><r>знать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
+    <e><p><l>þekkja<s n="vblex"/></l><r>знать<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
     <!-- РАЗДЕЛ: -->
 
