@@ -4,14 +4,19 @@
     <sdef n="n"        c=""/>
     <sdef n="pr"       c=""/>
     <sdef n="num"      c=""/>
+    <sdef n="prn"      c=""/>
+    <sdef n="det"      c=""/>
     <sdef n="adv"      c=""/>
     <sdef n="np"       c=""/>
     <sdef n="ij"       c=""/>
+    <sdef n="abbr"     c=""/>
     <sdef n="vbser"    c=""/>
     <sdef n="vblex"    c=""/>
     <sdef n="vbhaver"  c=""/>
     <sdef n="cnjcoo"   c=""/>
+    <sdef n="cnjadv"   c=""/>
     <sdef n="cnjsub"   c=""/>
+    <sdef n="rel"      c=""/>
 
     <sdef n="m"        c=""/>
     <sdef n="f"        c=""/>
@@ -20,7 +25,10 @@
     <sdef n="aa"       c=""/>
     <sdef n="nn"       c=""/>
 
+    <sdef n="dem"      c=""/>
+
     <sdef n="ant"      c=""/>
+    <sdef n="org"      c=""/>
 
     <sdef n="tv"       c=""/>
     <sdef n="iv"       c=""/>
@@ -45,11 +53,26 @@
 
     <e><p><l>og<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
     <e><p><l>og<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+
     <e><p><l>að<s n="cnjsub"/></l><r>что<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>eftir<b/>að<s n="cnjadv"/></l><r>после<b/>того,<b/>как<s n="cnjadv"/></r></p></e>
  
     <!-- РАЗДЕЛ: -->
 
     <e><p><l>á<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
+    <e><p><l>eftir<s n="pr"/></l><r>после<s n="pr"/></r></p></e>
+
+    <!-- РАЗДЕЛ: -->
+
+    <e><p><l>ég<s n="prn"/></l><r>я<s n="prn"/></r></p></e>
+    <e><p><l>þú<s n="prn"/></l><r>ты<s n="prn"/></r></p></e>
+
+    <e><p><l>sem<s n="rel"/></l><r>который<s n="prn"/><s n="rel"/></r></p></e>
+  
+    <!-- РАЗДЕЛ: -->
+
+    <e><p><l>þessi<s n="det"/><s n="dem"/></l><r>этот<s n="det"/><s n="dem"/></r></p></e>
  
     <!-- РАЗДЕЛ: -->
 
@@ -65,10 +88,16 @@
     <e><p><l>kona<s n="n"/><s n="f"/></l><r>женщина<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>kona<s n="n"/><s n="f"/></l><r>жена<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>land<s n="n"/><s n="nt"/></l><r>страна<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>matur<s n="n"/><s n="m"/></l><r>еда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>matur<s n="n"/><s n="m"/></l><r>обед<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
 
     <!-- РАЗДЕЛ: -->
 
     <e><p><l>Ingibjörg<s n="np"/><s n="ant"/><s n="f"/></l><r>Ингибьёрг<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+    <e><p><l>Þórarinsson<s n="np"/><s n="ant"/><s n="m"/></l><r>Тораринссон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+    <e><p><l>Wikipedia<s n="np"/><s n="org"/></l><r>Википедия<s n="np"/><s n="org"/></r></p></e>
  
     <!-- РАЗДЕЛ: -->
 
@@ -80,11 +109,16 @@
     <e><p><l>hafa<s n="vbhaver"/></l><r>иметь<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>tala<s n="vblex"/></l><r>горовить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>tala<s n="vblex"/></l><r>сказать<s n="vblex"/><s n="perf"/><s n="tv"/></r></p></e>
+    <e><p><l>hringja<s n="vblex"/></l><r>звонить<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
 
     <!-- РАЗДЕЛ: -->
 
     <e><p><l>takk<s n="ij"/></l><r>спасибо<s n="ij"/></r></p></e>
- 
+
+    <!-- РАЗДЕЛ: -->
+
+    <e><p><l>t.d.<s n="abbr"/></l><r>напр.<s n="abbr"/></r></p></e>
+  
     <!-- РАЗДЕЛ: -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
