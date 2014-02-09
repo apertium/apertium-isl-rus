@@ -26,6 +26,7 @@
     <sdef n="nn"       c=""/>
 
     <sdef n="dem"      c=""/>
+    <sdef n="pers"      c=""/>
 
     <sdef n="ant"      c=""/>
     <sdef n="org"      c=""/>
@@ -62,11 +63,13 @@
 
     <e><p><l>á<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
     <e><p><l>eftir<s n="pr"/></l><r>после<s n="pr"/></r></p></e>
+    <e><p><l>í<s n="pr"/></l><r>в<s n="pr"/></r></p></e>
+    <e><p><l>í<s n="pr"/></l><r>у<s n="pr"/></r></p></e>
 
     <!-- РАЗДЕЛ: -->
 
-    <e><p><l>ég<s n="prn"/></l><r>я<s n="prn"/></r></p></e>
-    <e><p><l>þú<s n="prn"/></l><r>ты<s n="prn"/></r></p></e>
+    <e><p><l>ég<s n="prn"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>þú<s n="prn"/></l><r>ты<s n="prn"/><s n="pers"/></r></p></e>
 
     <e><p><l>sem<s n="rel"/></l><r>который<s n="prn"/><s n="rel"/></r></p></e>
   
