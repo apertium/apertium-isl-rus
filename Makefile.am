@@ -28,20 +28,20 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 ## Icelandic→Russian monolingual transducers
 ###############################################################################
 
-$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin .deps/.d
-	lt-trim $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin $@
+$(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin .deps/.d
+	lt-trim $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin $@
 
-$(PREFIX1).autogen.bin: $(AP_LIB2)/$(LANG2).autogen.bin
+$(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
 
 ###############################################################################
 ## Russian→Icelandic monolingual transducers
 ###############################################################################
 
-$(PREFIX2).automorf.bin: $(AP_LIB2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin .deps/.d
-	lt-trim $(AP_LIB2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin $@
+$(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin .deps/.d
+	lt-trim $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin $@
 
-$(PREFIX2).autogen.bin: $(AP_LIB1)/$(LANG1).autogen.bin
+$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
 
 ###############################################################################
