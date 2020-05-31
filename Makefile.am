@@ -2,7 +2,6 @@
 ## Makefile for Icelandic--Russian
 ###############################################################################
 
-VERSION=0.2.0
 LANG1=isl
 LANG2=rus
 PREFIX1=$(LANG1)-$(LANG2)
@@ -16,9 +15,11 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
         $(PREFIX1).rlx.bin $(PREFIX2).rlx.bin \
         $(PREFIX1).autolex.bin $(PREFIX2).autolex.bin
 
+@ap_include@
+
 # Use this goal for creating .deps, otherwise make -j2 will give problems:
 .deps/.d:
-	if [ ! -d .deps ]; then mkdir .deps; fi
+	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
 	touch $@
 
 # Prevent the .d file from being removed automatically:
@@ -127,16 +128,6 @@ $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
 
-###############################################################################
-## Translation modes
-###############################################################################
-
-# All modes are created by this one goal
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).lrx \
            $(BASENAME).$(PREFIX1).dix \
@@ -152,26 +143,16 @@ EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
 
 #           $(BASENAME).post-$(LANG1).dix 
 
-apertium_isl_rusmodesdir=$(prefix)/share/apertium/modes/
 apertium_isl_rusdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_isl_rus_DATA=$(TARGETS_COMMON) \
-                    $(PREFIX1).prob $(PREFIX2).prob \
-		    modes.xml
+                    $(PREFIX1).prob $(PREFIX2).prob
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 
-install-data-local:
-	mv modes modes.bak
-	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_isl_rusmodesdir) || mkdir $(DESTDIR)$(apertium_isl_rusmodesdir)
-	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
-		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
-		rm $$modes
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_isl_rusdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_isl_rusdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_isl_rusdir)
@@ -179,4 +160,4 @@ install-data-local:
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local: 
-	-rm -rf .deps modes
+	-rm -rf .deps

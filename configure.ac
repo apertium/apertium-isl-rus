@@ -7,7 +7,6 @@ AC_PROG_AWK
 
 m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-                          
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
 if test x$ac_cv_path_CGCOMP = x
@@ -70,6 +69,6 @@ m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertiu
 AP_CHECK_LING([1], [apertium-isl])
 AP_CHECK_LING([2], [apertium-rus])
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
-
