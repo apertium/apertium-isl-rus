@@ -1,0 +1,10 @@
+{
+    "isl-rus": {
+        "input": "isl-rus-input.txt",
+        "mode": "isl-rus"
+    },
+    "rus-isl": {
+        "input": "rus-isl-input.txt",
+        "mode": "rus-isl"
+    }
+}

@@ -1,0 +1,22 @@
+[CMLlSNy7Q-4D#0] ^sé/vera<vbser><prs><p1><sg>/vera<vbser><prs><p3><sg>$
+[/CMLlSNy7Q-4D]
+[ENhTzm8d27Qr#0] ^mín/ég<prn><p1><mf><sg><gen>$
+[/ENhTzm8d27Qr]
+[OXPgIukyIPkh#0] ^-/-<guio>$
+[/OXPgIukyIPkh]
+[b_L1AdLWjoDO#0] ^hefurðu/hafa<vbhaver><pri><p2><sg>+þú<prn><p2><mf><sg><nom>$
+[/b_L1AdLWjoDO]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[kWM_xjEiBeeo#0] ^Þórarinssynir/Þórarinsson<np><ant><m><pl><nom>/Þórarinsson<np><ant><m><pl><nom>$
+[/kWM_xjEiBeeo]
+[niBQkJOIiMDG#0] ^takk/takk<ij>$
+[/niBQkJOIiMDG]
+[oh7JA94Ogh6L#0] ^landi/land<n><nt><sg><dat><ind>$
+[/oh7JA94Ogh6L]
+[q9y1gVen87QK#0] ^ert/vera<vbser><pri><p2><sg>$
+[/q9y1gVen87QK]
+[tpcRMTtp2w5j#0] ^ertu/vera<vbser><pri><p2><sg>+þú<prn><p2><mf><sg><nom>$
+[/tpcRMTtp2w5j]
+[zbTuKuppzGqD#0] ^./.<sent>$
+[/zbTuKuppzGqD]

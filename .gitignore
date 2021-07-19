@@ -31,3 +31,12 @@
 /rus-isl.t1x.bin
 /rus-isl.t2x.bin
 /rus-isl.t3x.bin
+/*.hfst
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/ap_include.am
+/config.in
+/config
+/test/*-output.txt

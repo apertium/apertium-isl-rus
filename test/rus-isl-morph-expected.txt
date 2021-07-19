@@ -1,0 +1,26 @@
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[NJxBIBti24UR#0] ^78/78<num>$
+[/NJxBIBti24UR]
+[TB0MG4FJf-00#0] ^скажут/сказать<vblex><perf><tv><fut><p3><pl>$
+[/TB0MG4FJf-00]
+[XrvFe262ibUH#0] ^сказать/сказать<vblex><perf><tv><inf>$
+[/XrvFe262ibUH]
+[YXIjndCzMPYl#0] ^домом/дом<n><m><nn><sg><ins>$
+[/YXIjndCzMPYl]
+[_rrVhvyllCg0#0] ^сказан/сказать<vblex><perf><tv><pp><pasv><short><m><sg>$
+[/_rrVhvyllCg0]
+[do_cJJ2fkOuL#0] ^сказала/сказать<vblex><perf><tv><past><f><sg>$
+[/do_cJJ2fkOuL]
+[fstmhTqrs_P6#0] ^людей/человек<n><m><aa><pl><acc>/человек<n><m><aa><pl><gen>$
+[/fstmhTqrs_P6]
+[gjxOs-iVrckl#0] ^а/а<cnjcoo>$
+[/gjxOs-iVrckl]
+[hHbZHAO-w9oe#0] ^скажите/сказать<vblex><perf><tv><imp><p2><pl>$
+[/hHbZHAO-w9oe]
+[j2ehEXKr-R8v#0] ^??./??.<sent>$
+[/j2ehEXKr-R8v]
+[wPYiy-j5qC5o#0] ^во/в<pr>$
+[/wPYiy-j5qC5o]
+[wulYxnl8frrV#0] ^иметь/иметь<vblex><impf><tv><inf>$
+[/wulYxnl8frrV]

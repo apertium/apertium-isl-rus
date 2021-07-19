@@ -1,0 +1,26 @@
+[Muuxq8wcYBzr#0] ^(<lpar>/(<lpar>$
+[/Muuxq8wcYBzr]
+[NJxBIBti24UR#0] ^78<num>/78<num>$
+[/NJxBIBti24UR]
+[TB0MG4FJf-00#0] ^сказать<vblex><perf><tv><fut><p3><pl>/tala<vblex><fut><p3><pl>$
+[/TB0MG4FJf-00]
+[XrvFe262ibUH#0] ^сказать<vblex><perf><tv><inf>/tala<vblex><inf>$
+[/XrvFe262ibUH]
+[YXIjndCzMPYl#0] ^дом<n><m><nn><sg><ins>/hús<n><nt><sg><ins>$
+[/YXIjndCzMPYl]
+[_rrVhvyllCg0#0] ^сказать<vblex><perf><tv><pp><pasv><short><m><sg>/tala<vblex><pp><pasv><short><m><sg>$
+[/_rrVhvyllCg0]
+[do_cJJ2fkOuL#0] ^сказать<vblex><perf><tv><past><f><sg>/tala<vblex><past><f><sg>$
+[/do_cJJ2fkOuL]
+[fstmhTqrs_P6#0] ^человек<n><m><aa><pl><acc>/maður<n><m><pl><acc>$
+[/fstmhTqrs_P6]
+[gjxOs-iVrckl#0] ^а<cnjcoo>/og<cnjcoo>$
+[/gjxOs-iVrckl]
+[hHbZHAO-w9oe#0] ^сказать<vblex><perf><tv><imp><p2><pl>/tala<vblex><imp><p2><pl>$
+[/hHbZHAO-w9oe]
+[j2ehEXKr-R8v#0] ^??.<sent>/??.<sent>$
+[/j2ehEXKr-R8v]
+[wPYiy-j5qC5o#0] ^в<pr>/í<pr>$
+[/wPYiy-j5qC5o]
+[wulYxnl8frrV#0] ^иметь<vblex><impf><tv><inf>/hafa<vbhaver><inf>$
+[/wulYxnl8frrV]

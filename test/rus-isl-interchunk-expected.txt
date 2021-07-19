@@ -1,0 +1,26 @@
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[NJxBIBti24UR#0] ^default<default>{^78<num>$}$
+[/NJxBIBti24UR]
+[TB0MG4FJf-00#0] ^default<default>{^tala<vblex><fut><p3><pl>$}$
+[/TB0MG4FJf-00]
+[XrvFe262ibUH#0] ^default<default>{^tala<vblex><inf>$}$
+[/XrvFe262ibUH]
+[YXIjndCzMPYl#0] ^default<default>{^hús<n><nt><sg><ins>$}$
+[/YXIjndCzMPYl]
+[_rrVhvyllCg0#0] ^default<default>{^tala<vblex><pp><pasv><short><m><sg>$}$
+[/_rrVhvyllCg0]
+[do_cJJ2fkOuL#0] ^default<default>{^tala<vblex><past><f><sg>$}$
+[/do_cJJ2fkOuL]
+[fstmhTqrs_P6#0] ^default<default>{^maður<n><m><pl><acc>$}$
+[/fstmhTqrs_P6]
+[gjxOs-iVrckl#0] ^default<default>{^og<cnjcoo>$}$
+[/gjxOs-iVrckl]
+[hHbZHAO-w9oe#0] ^default<default>{^tala<vblex><imp><p2><pl>$}$
+[/hHbZHAO-w9oe]
+[j2ehEXKr-R8v#0] ^sent<SENT>{^??.<sent>$}$
+[/j2ehEXKr-R8v]
+[wPYiy-j5qC5o#0] ^default<default>{^í<pr>$}$
+[/wPYiy-j5qC5o]
+[wulYxnl8frrV#0] ^default<default>{^hafa<vbhaver><inf>$}$
+[/wulYxnl8frrV]
